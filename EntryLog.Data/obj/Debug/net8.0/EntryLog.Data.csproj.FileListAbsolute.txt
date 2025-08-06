@@ -1,0 +1,15 @@
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/bin/Debug/net8.0/EntryLog.Data.deps.json
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/bin/Debug/net8.0/EntryLog.Data.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/bin/Debug/net8.0/EntryLog.Data.pdb
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/bin/Debug/net8.0/EntryLog.Entities.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/bin/Debug/net8.0/EntryLog.Entities.pdb
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/EntryLog.Data.csproj.AssemblyReference.cache
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/EntryLog.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/EntryLog.Data.AssemblyInfoInputs.cache
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/EntryLog.Data.AssemblyInfo.cs
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/EntryLog.Data.csproj.CoreCompileInputs.cache
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/EntryLog.0B219B47.Up2Date
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/EntryLog.Data.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/refint/EntryLog.Data.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/EntryLog.Data.pdb
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/ref/EntryLog.Data.dll
