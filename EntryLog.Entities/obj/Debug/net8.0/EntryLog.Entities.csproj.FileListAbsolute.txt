@@ -1,0 +1,11 @@
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/bin/Debug/net8.0/EntryLog.Entities.deps.json
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/bin/Debug/net8.0/EntryLog.Entities.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/bin/Debug/net8.0/EntryLog.Entities.pdb
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/obj/Debug/net8.0/EntryLog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/obj/Debug/net8.0/EntryLog.Entities.AssemblyInfoInputs.cache
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/obj/Debug/net8.0/EntryLog.Entities.AssemblyInfo.cs
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/obj/Debug/net8.0/EntryLog.Entities.csproj.CoreCompileInputs.cache
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/obj/Debug/net8.0/EntryLog.Entities.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/obj/Debug/net8.0/refint/EntryLog.Entities.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/obj/Debug/net8.0/EntryLog.Entities.pdb
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/obj/Debug/net8.0/ref/EntryLog.Entities.dll
