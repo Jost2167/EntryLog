@@ -1,3 +1,4 @@
+using System.Reflection;
 using EntryLog.Entities.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,18 +12,8 @@ public class AppDbContext : DbContext
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Employee>(entity =>
-        {
-            entity.ToTable("EMPLEADOS");
-            entity.HasKey(e => e.Code);
-            entity.Property(e => e.Code).HasColumnName("CODIGO");
-            entity.Property(e => e.FullName).HasColumnName("NOMBRES");
-            entity.Property(e => e.Position).HasColumnName("CARGO");
-            entity.Property(e => e.OrganizationId).HasColumnName("EMPRESA");
-            entity.Property(e => e.BranchOffice).HasColumnName("SURCURSAL");
-            entity.Property(e => e.TownName).HasColumnName("CIUDAD");
-            entity.Property(e => e.CostCenter).HasColumnName("CENTRO_COSTO");
-        });
+        // Agrega todas las configuraciones de entidades desde el ensamblado actual
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
         
         base.OnModelCreating(modelBuilder);
     }

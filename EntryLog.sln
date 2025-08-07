@@ -2,6 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryLog.Entities", "EntryLog.Entities\EntryLog.Entities.csproj", "{F2A811E6-D944-4A9D-9837-3BC55E361D2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryLog.Data", "EntryLog.Data\EntryLog.Data.csproj", "{528AD0D6-8F6E-4B09-A5EC-014CF6E45B85}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F2A811E6-D944-4A9D-9837-3BC55E361D2C} = {F2A811E6-D944-4A9D-9837-3BC55E361D2C}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +17,9 @@ Global
 		{F2A811E6-D944-4A9D-9837-3BC55E361D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2A811E6-D944-4A9D-9837-3BC55E361D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2A811E6-D944-4A9D-9837-3BC55E361D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528AD0D6-8F6E-4B09-A5EC-014CF6E45B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528AD0D6-8F6E-4B09-A5EC-014CF6E45B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528AD0D6-8F6E-4B09-A5EC-014CF6E45B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528AD0D6-8F6E-4B09-A5EC-014CF6E45B85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
