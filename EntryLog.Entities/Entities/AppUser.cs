@@ -5,6 +5,7 @@ namespace EntryLog.Entities.Entities;
 public class AppUser
 {
     public Guid Id { get; set; }
+    // Code es el mismo que Code de la entidad Employee
     public int Code { get; set; }
     public RoleType Role { get; set; } 
     public string Email { get; set; } = "";

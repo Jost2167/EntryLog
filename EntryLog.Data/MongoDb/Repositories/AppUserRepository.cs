@@ -30,6 +30,11 @@ public class AppUserRepository : IAppUserRepository
         return await _collection.Find(u=>u.Id == id).FirstOrDefaultAsync();
     }
 
+    public async Task<AppUser?> GetByCodeAsync(int code)
+    {
+        return await _collection.Find(u => u.Code == code).FirstOrDefaultAsync();
+    }
+
     public async Task<AppUser?> GetByUserNameAsync(string email)
     {
         return await _collection.Find(u => u.Email == email).FirstOrDefaultAsync();

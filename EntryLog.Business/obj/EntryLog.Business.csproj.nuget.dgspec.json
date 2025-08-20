@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/EntryLog.Business.csproj": {}
+  },
+  "projects": {
+    "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/EntryLog.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/EntryLog.Business.csproj",
+        "projectName": "EntryLog.Business",
+        "projectPath": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/EntryLog.Business.csproj",
+        "packagesPath": "/home/jstiven/.nuget/packages/",
+        "outputPath": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jstiven/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/EntryLog.Data.csproj": {
+                "projectPath": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/EntryLog.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/EntryLog.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/EntryLog.Data.csproj",
+        "projectName": "EntryLog.Data",
+        "projectPath": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/EntryLog.Data.csproj",
+        "packagesPath": "/home/jstiven/.nuget/packages/",
+        "outputPath": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jstiven/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/EntryLog.Entities.csproj": {
+                "projectPath": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/EntryLog.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/EntryLog.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/EntryLog.Entities.csproj",
+        "projectName": "EntryLog.Entities",
+        "projectPath": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/EntryLog.Entities.csproj",
+        "packagesPath": "/home/jstiven/.nuget/packages/",
+        "outputPath": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jstiven/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

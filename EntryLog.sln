@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryLog.Data", "EntryLog.D
 		{F2A811E6-D944-4A9D-9837-3BC55E361D2C} = {F2A811E6-D944-4A9D-9837-3BC55E361D2C}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntryLog.Business", "EntryLog.Business\EntryLog.Business.csproj", "{434B8271-682D-42E3-8228-D0F17072C452}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,5 +23,9 @@ Global
 		{528AD0D6-8F6E-4B09-A5EC-014CF6E45B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{528AD0D6-8F6E-4B09-A5EC-014CF6E45B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{528AD0D6-8F6E-4B09-A5EC-014CF6E45B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434B8271-682D-42E3-8228-D0F17072C452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434B8271-682D-42E3-8228-D0F17072C452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434B8271-682D-42E3-8228-D0F17072C452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434B8271-682D-42E3-8228-D0F17072C452}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

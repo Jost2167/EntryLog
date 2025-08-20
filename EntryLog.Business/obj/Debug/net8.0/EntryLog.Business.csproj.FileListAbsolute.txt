@@ -1,0 +1,17 @@
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/bin/Debug/net8.0/EntryLog.Business.deps.json
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/bin/Debug/net8.0/EntryLog.Business.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/bin/Debug/net8.0/EntryLog.Business.pdb
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.Business.GeneratedMSBuildEditorConfig.editorconfig
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.Business.AssemblyInfoInputs.cache
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.Business.AssemblyInfo.cs
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.Business.csproj.CoreCompileInputs.cache
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.Business.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/refint/EntryLog.Business.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.Business.pdb
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/ref/EntryLog.Business.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/bin/Debug/net8.0/EntryLog.Data.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/bin/Debug/net8.0/EntryLog.Entities.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/bin/Debug/net8.0/EntryLog.Data.pdb
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/bin/Debug/net8.0/EntryLog.Entities.pdb
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.Business.csproj.AssemblyReference.cache
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.E334FCFB.Up2Date
