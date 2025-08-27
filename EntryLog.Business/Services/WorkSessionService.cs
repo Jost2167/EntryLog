@@ -1,6 +1,8 @@
 using EntryLog.Business.DTOs;
 using EntryLog.Business.Interfaces;
+using EntryLog.Business.Mappers;
 using EntryLog.Business.QueryFilters;
+using EntryLog.Business.Specs;
 using EntryLog.Data.Interfaces;
 using EntryLog.Entities.Entities;
 using EntryLog.Entities.Enums;
@@ -8,13 +10,13 @@ using EntryLog.Entities.Enums;
 namespace EntryLog.Business.Services;
 
 public class WorkSessionService(
-    IAppUserRepository appUserService,
+    IAppUserRepository appUserRepository,
     IWorkSessionRepository workSessionRepository,
     IEmployeeRepository employeeRepository)
     : IWorkSessionService
 {
 
-    private readonly IAppUserRepository _appUserService = appUserService;
+    private readonly IAppUserRepository _appUserService = appUserRepository;
     private readonly IWorkSessionRepository _workSessionRepository = workSessionRepository;
     private readonly IEmployeeRepository _employeeRepository = employeeRepository;
 
@@ -87,7 +89,7 @@ public class WorkSessionService(
         activeSession.CheckOut.DeviceName = closeWorkSessionDTO.DeviceName;
         activeSession.CheckOut.PhotoUrl = "";
         activeSession.CheckOut.Note = closeWorkSessionDTO.Note;
-        activeSession.CheckOut.Date = DateTime.UtcNow;        
+        activeSession.CheckOut.Date = DateTime.UtcNow;
         activeSession.CheckOut.Location.Longitude = closeWorkSessionDTO.Longitude;
         activeSession.CheckOut.Location.Latitude = closeWorkSessionDTO.Latitude;
         activeSession.CheckOut.Location.IpAddress = closeWorkSessionDTO.IpAddress;
@@ -98,7 +100,8 @@ public class WorkSessionService(
         return (true, "Sesión de trabajo cerrada correctamente");
     }
 
-    private async Task<(bool sucess, string message)> ValidateEmployeeUserAsync(int code) {
+    private async Task<(bool sucess, string message)> ValidateEmployeeUserAsync(int code)
+    {
 
         // Verificar que el empleado exista
         Employee? employee = await _employeeRepository.GetByCodeAsync(code);
@@ -115,8 +118,23 @@ public class WorkSessionService(
         return (true, "");
     }
 
-    public Task<IEnumerable<object>> GetSessionsByFilterAsync(WorkSessionQueryFilter filter)
+    public async Task<IEnumerable<GetWorkSessionDTO>> GetSessionsByFilterAsync(WorkSessionQueryFilter filter)
     {
-        
-    }
+        WorkSessionSpec spec = new WorkSessionSpec();
+
+        if (filter.EmployeeId.HasValue)
+        {
+            // Filtrar Worksessions por EmployeeId
+            spec.AndAlso(x => x.EmployeeId == filter.EmployeeId.Value);
+        }
+
+        IEnumerable<WorkSession> sessions = await _workSessionRepository.GetAllAsync(spec);
+
+        // Mapear las sesiones de trabajo a DTOs
+        IEnumerable<GetWorkSessionDTO> sessionDTOs = sessions.Select(w=> WorkSessionMapper.MapToGetWorkSessionDTO(w));
+
+        return sessionDTOs;
+    }       
+
+    
 }

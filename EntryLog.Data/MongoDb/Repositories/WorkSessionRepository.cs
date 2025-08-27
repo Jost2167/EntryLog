@@ -3,6 +3,7 @@ using EntryLog.Data.Constants;
 using EntryLog.Data.Interfaces;
 using EntryLog.Entities.Entities;
 using EntryLog.Entities.Enums;
+using EntryLog.Entities.Specifications;
 using MongoDB.Driver;
 
 namespace EntryLog.Data.MongoDb.Repositories;
@@ -40,9 +41,10 @@ public class WorkSessionRepository(IMongoDatabase database) : IWorkSessionReposi
         return await _collection.Find(w => w.EmployeeId == employeeId).FirstOrDefaultAsync();
     }
 
-    public Task<IEnumerable<WorkSession>> GetAllAsync()
+    public Task<IEnumerable<WorkSession>> GetAllAsync(ISpecification<WorkSession> spec)
     {
-        throw new NotImplementedException();
+        return await _collection;
+        ;
     }
 
     public async Task<WorkSession?> GetActiveSessionByEmployeeIdAsync(int employeeId)

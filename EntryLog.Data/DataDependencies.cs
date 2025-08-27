@@ -42,7 +42,7 @@ public static class DataDependencies
         });
         
         // Servicio de MongoDB para gestionar usuarios
-        services.AddScoped<IAppUserRepository, IAppUserRepository>();
+        services.AddScoped<IEmployeeRepository, IEmployeeRepository>();
 
         // Servicio de MongoDB para gestionar sesiones de trabajo
         services.AddScoped<IWorkSessionRepository, IWorkSessionRepository>();

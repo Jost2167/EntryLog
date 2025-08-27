@@ -5,7 +5,7 @@ using MongoDB.Driver;
 
 namespace EntryLog.Data.MongoDb.Repositories;
 
-public class AppUserRepository : IAppUserRepository
+public class AppUserRepository : IEmployeeRepository
 {
     private readonly IMongoCollection<AppUser> _collection; 
         
