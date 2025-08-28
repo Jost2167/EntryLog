@@ -1,5 +1,5 @@
+using EntryLog.Data.Specifications;
 using EntryLog.Entities.Entities;
-using EntryLog.Entities.Specifications;
 
 namespace EntryLog.Business.Specs
 {

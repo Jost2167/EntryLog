@@ -6,15 +6,11 @@ namespace EntryLog.Business.Interfaces
     {
         // Registra un nuevo usuario de la aplicación
         Task<(bool sucess, string message, LoginResponseDTO? loginResponseDTO)> RegisterEmployeeAsync(CreateEmployeeUserDTO userDTO);
-
         // Inicia sesión de un usuario de la aplicación
-        Task<(bool sucess, string message, LoginResponseDTO? loginResponseDTO)> UserLoginAsync(UserCredentialsDTO userDTO);
-
+        Task<(bool sucess, string message, LoginResponseDTO? loginResponseDTO)> UserLoginAsync(UserCredentialsDTO userCredentialsDTO);
         // Iniciar recuperacion
         Task<(bool sucess, string message)> AccountRecoveryStartAsync(string email);
-
         // Completar recuperacion
         Task<(bool sucess, string message)> AccountRecoveryCompleteAsync(AccountRecoveryDTO accountRecoveryDTO);
-        
     }
 }

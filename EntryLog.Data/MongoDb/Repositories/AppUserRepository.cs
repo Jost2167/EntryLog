@@ -5,7 +5,7 @@ using MongoDB.Driver;
 
 namespace EntryLog.Data.MongoDb.Repositories;
 
-public class AppUserRepository : IEmployeeRepository
+public class AppUserRepository : IAppUserRepository
 {
     private readonly IMongoCollection<AppUser> _collection; 
         
@@ -38,5 +38,10 @@ public class AppUserRepository : IEmployeeRepository
     public async Task<AppUser?> GetByUserNameAsync(string email)
     {
         return await _collection.Find(u => u.Email == email).FirstOrDefaultAsync();
+    }
+
+    public Task<AppUser> GetByRecoveryTokenAsync(string token)
+    {
+        return _collection.Find(u=>u.RecoveryToken == token && u.RecoveryTokenActive).FirstOrDefaultAsync();
     }
 }

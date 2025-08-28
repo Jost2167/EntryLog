@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace EntryLog.Entities.Specifications
+namespace EntryLog.Data.Specifications
 {
     public abstract class Specification<TEntity> : ISpecification<TEntity> where TEntity : class
     {

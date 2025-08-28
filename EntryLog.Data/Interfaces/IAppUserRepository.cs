@@ -9,6 +9,5 @@ public interface IAppUserRepository
     Task<AppUser?> GetByIdAsync(Guid id);
     Task<AppUser?> GetByCodeAsync(int code);
     Task<AppUser?> GetByUserNameAsync(string email);
-    
-    
+    Task<AppUser> GetByRecoveryTokenAsync(string token);
 }

@@ -1,3 +1,4 @@
+using EntryLog.Data.Specifications;
 using EntryLog.Entities.Entities;
 
 namespace EntryLog.Data.Interfaces;
@@ -8,6 +9,6 @@ public interface IWorkSessionRepository
     Task UpdateAsync(WorkSession workSession);
     Task<WorkSession?> GetByIdAsync(Guid id);
     Task<WorkSession?> GetByEmployeeIdAsync(int employeeId);
-    Task<IEnumerable<WorkSession>> GetAllAsync();
+    Task<IEnumerable<WorkSession>> GetAllAsync(ISpecification<WorkSession> spec);
     Task<WorkSession?> GetActiveSessionByEmployeeIdAsync(int employeeId);
 }
