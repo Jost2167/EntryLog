@@ -1,6 +1,8 @@
 using EntryLog.Data.Interfaces;
 using EntryLog.Data.MongoDb.Config;
+using EntryLog.Data.MongoDb.Repositories;
 using EntryLog.Data.SqlLegacy.DataContext;
+using EntryLog.Data.SqlLegacy.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,6 +14,7 @@ namespace EntryLog.Data;
 // Permite extender el contenedor de dependencias
 public static class DataDependencies
 {
+    // IConfiguration permite acceder a la configuracion de la aplicacion (appsettings.json)
     public static IServiceCollection AddDataServices(this IServiceCollection services,
         IConfiguration configuration)
     {
@@ -20,7 +23,7 @@ public static class DataDependencies
             options.UseSqlServer(configuration.GetConnectionString("EmployeesDB")));
         
         // Servicio de repositorio de usuarios
-        services.AddScoped<IEmployeeRepository, IEmployeeRepository>();
+        services.AddScoped<IEmployeeRepository, EmployeeRepository>();
         
         // Permite enlazar automaticamente los valores del archivo de configuracion a las propiedades de la clase
         // Vincula la seccion "EntryLogDbOptions" del archivo de appsettings.json a la clase EntryLogDbOptions
@@ -30,22 +33,22 @@ public static class DataDependencies
         // Registra la conexion a Mongo como servicio reutilizable
         services.AddScoped<IMongoDatabase>(sp =>
         {
-            // Obtiene las opciones de configuracion de MongoDB a través de IOptions
-            var options = sp.GetRequiredService<IOptions<EntryLogDbOptions>>().Value;
+            // Obtiene la instancia de EntryLogDbOptions con los valores de configuracion
+            EntryLogDbOptions entryLogDb = sp.GetRequiredService<IOptions<EntryLogDbOptions>>().Value;
 
             // Crea una instancia de MongoClient con la URI de conexion
-            var client = new MongoClient(options.ConnectionUri);
+            var client = new MongoClient(entryLogDb.ConnectionUri);
 
             // Obtiene la base de datos especificada en las opciones y la retorna como IMongoDatabase
             // Esto permite que la base de datos se pueda inyectar en otros servicios
-            return client.GetDatabase(options.DatabaseName);
+            return client.GetDatabase(entryLogDb.DatabaseName);
         });
         
         // Servicio de MongoDB para gestionar usuarios
-        services.AddScoped<IEmployeeRepository, IEmployeeRepository>();
+        services.AddScoped<IAppUserRepository, AppUserRepository>();
 
         // Servicio de MongoDB para gestionar sesiones de trabajo
-        services.AddScoped<IWorkSessionRepository, IWorkSessionRepository>();
+        services.AddScoped<IWorkSessionRepository, WorkSessionRepository>();
         
         return services;
     }
