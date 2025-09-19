@@ -1,6 +1,7 @@
 using EntryLog.Data.Interfaces;
 using EntryLog.Data.MongoDb.Config;
 using EntryLog.Data.MongoDb.Repositories;
+using EntryLog.Data.MongoDb.Serializers;
 using EntryLog.Data.SqlLegacy.DataContext;
 using EntryLog.Data.SqlLegacy.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -49,6 +50,13 @@ public static class DataDependencies
 
         // Servicio de MongoDB para gestionar sesiones de trabajo
         services.AddScoped<IWorkSessionRepository, WorkSessionRepository>();
+        
+        // Servicio de MongoDB para gestionar registros de entradas y salidas
+        AppUserSerializer.Init();
+        WorkSessionSerializer.Init();
+        CheckSerializer.Init();
+        LocationSerializer.Init();
+            
         
         return services;
     }

@@ -15,10 +15,14 @@ internal static class AppUserSerializer
         {
             BsonClassMap.RegisterClassMap<AppUser>(cm =>
             {
+                cm.SetIdMember(cm.GetMemberMap(x=>x.Id));
+                
                 cm.MapIdMember(c => c.Id)
+                    .SetElementName("_id")
                     .SetIdGenerator(GuidGenerator.Instance)
                     .SetSerializer(new GuidSerializer(GuidRepresentation.Standard));
 
+                cm.MapMember(c=>c.Name).SetElementName("nombre");
                 cm.MapMember(c=>c.Code).SetElementName("codigo");
                 cm.MapMember(c => c.Role)
                     .SetElementName("rol")
@@ -32,8 +36,6 @@ internal static class AppUserSerializer
                     .SetIgnoreIfNull(true);
                 cm.MapMember(c => c.RecoveryTokenActive).SetElementName("token_activo");
                 cm.MapMember(c => c.Active).SetElementName("activo");
-
-
             });
         }
     }

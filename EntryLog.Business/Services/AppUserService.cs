@@ -1,5 +1,6 @@
 using EntryLog.Business.DTOs;
 using EntryLog.Business.Interfaces;
+using EntryLog.Business.Mailtrap.Models;
 using EntryLog.Data.Interfaces;
 using EntryLog.Entities.Entities;
 using EntryLog.Entities.Enums;
@@ -58,6 +59,7 @@ namespace EntryLog.Business.Services
             var appUserNew = new AppUser()
             {
                 Code = code,
+                Name = employee.FullName,
                 Role = RoleType.Employee,
                 Email = userDTO.Username,
                 CellPhone = userDTO.CellPhone,
@@ -121,8 +123,15 @@ namespace EntryLog.Business.Services
             // Actualizar el usuario
             await _appUserRepository.UpdateAsync(appUser);
             
+            // Variables para la plantilla del email
+            RecoveryAccountVariables variables = new RecoveryAccountVariables
+            {
+                 Name = appUser.Name,
+                 Url = $"https://localhost:5000/account/recovery?token={recoveryTokenEncrypted}"
+            };
+            
             // Enviar el token por email
-            bool isSend = await _emailSendService.SendEmailWithTemplateAsync("RecoveryToken", appUser.Email);
+            bool isSend = await _emailSendService.SendEmailWithTemplateAsync("RecoveryToken", "u20222208566@usco.edu.co", variables);
             
             return (isSend, isSend ? $"Se ha enviado un email a {appUser.Email} con las instrucciones para recuperar la cuenta" : "No se ha podido enviar el email de recuperación de cuenta");
         }
@@ -165,7 +174,7 @@ namespace EntryLog.Business.Services
             // Obtener el usuario a traves de token
             AppUser? appUser = await _appUserRepository.GetByRecoveryTokenAsync(accountRecoveryDTO.token);
             
-            if (appUser == null || string.Equals(appUser.Email, email, StringComparison.OrdinalIgnoreCase))
+            if (appUser == null || !string.Equals(appUser.Email, email, StringComparison.OrdinalIgnoreCase))
                 return (false, "El token no es valido");
             
             // convertir los Ticks a DateTime
@@ -173,7 +182,7 @@ namespace EntryLog.Business.Services
             
             // Validar que el token no haya expirado (1 hora)
             DateTime dateTimeNow = DateTime.UtcNow;
-            const int expirationMinutes = 30;
+            const int expirationMinutes = 180;
             
             var totalMinutes = (dateTimeNow - tokenDateTime).TotalMinutes;
 
@@ -196,11 +205,12 @@ namespace EntryLog.Business.Services
             }
         }
 
-        private async Task FinalizeRecoveryTokenAsync(AppUser appUser)
+        private Task FinalizeRecoveryTokenAsync(AppUser appUser)
         {
             // Desactivar el token de recuperación
             appUser.RecoveryToken = null;
             appUser.RecoveryTokenActive = false;
+            return Task.CompletedTask;
         }
     }
 }

@@ -15,6 +15,9 @@ internal static class WorkSessionSerializer
         {
             BsonClassMap.RegisterClassMap<WorkSession>(cm =>
             {
+                // Indica cual sera el miembro que actuara como Id
+                cm.SetIdMember(cm.GetMemberMap(x=>x.Id));
+                
                 // MapIdMember marca Id como _id del documento
                 cm.MapIdMember(c => c.Id)
                     // Permite que Mongo genere automáticamente el Id

@@ -20,7 +20,7 @@ public class EmployeeConfig: IEntityTypeConfiguration<Employee>
             .HasColumnName("fecha_nacimiento")
             .HasColumnType("datetime2"); // fecha de tipo mes/año/dia
         builder.Property(e => e.TownName).HasColumnName("ciudad");
-        builder.Property(e => e.Position).HasColumnName("cargo");
+        builder.Property(e => e.PositionId).HasColumnName("id_cargo");
         
         // Configura la relación con la entidad Position
         builder.HasOne(e => e.Position)
