@@ -1,6 +1,7 @@
 using System.Net.Http.Headers;
 using EntryLog.Business.Constants;
 using EntryLog.Business.Cryptography;
+using EntryLog.Business.ImageBB;
 using EntryLog.Business.Interfaces;
 using EntryLog.Business.Mailtrap;
 using EntryLog.Business.Mailtrap.Models;
@@ -19,6 +20,7 @@ public static class BusinessDependencies
         service.Configure<MailtrapApiOptions>(configuration.GetSection("MailtrapApiOptions"));
         service.Configure<Argon2PasswordHashOptions>(configuration.GetSection("Argon2PasswordHashOptions"));
         service.Configure<EncryptionKeyValues>(configuration.GetSection("EncryptionKeyValues"));
+        service.Configure<ImageBbOptions>(configuration.GetSection("ImageBbOptions"));
         
         // HttpClientFactory
         service.AddHttpClient(ApiNames.MailtrapIO, (sp, client) =>
@@ -29,6 +31,12 @@ public static class BusinessDependencies
             client.BaseAddress = new Uri("https://send.api.mailtrap.io");
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", options.ApiToken);
         });
+
+        service.AddHttpClient(ApiNames.ImageBb, (sp, client) =>
+        {
+            client.BaseAddress = new Uri("https://api.imgbb.com/");
+        });
+        
         
         // Servicics de aplicación
         service.AddScoped<IAppUserService, AppUserService>();
