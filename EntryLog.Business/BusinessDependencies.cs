@@ -34,7 +34,9 @@ public static class BusinessDependencies
 
         service.AddHttpClient(ApiNames.ImageBb, (sp, client) =>
         {
-            client.BaseAddress = new Uri("https://api.imgbb.com/");
+            var options = sp.GetRequiredService<IOptions<ImageBbOptions>>().Value;
+            
+            client.BaseAddress = new Uri(options.ApiUrl);
         });
         
         
@@ -46,6 +48,7 @@ public static class BusinessDependencies
         service.AddScoped<IEmailSendService, MailtrapApiService>();
         service.AddScoped<IEncryptionService, RSAAsymmetricEncryptionService>();
         service.AddScoped<IPasswordHasherService, Argon2PasswordHasherService>();
+        service.AddScoped<ILoadImagesService, ImageBbService>();
 
 
         return service;

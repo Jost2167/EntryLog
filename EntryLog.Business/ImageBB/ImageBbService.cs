@@ -17,7 +17,7 @@ public class ImageBbService : ILoadImagesService
         _options = options.Value;
     }
     
-    public async Task<string> UploadImageAsync(Stream imageStream, string imageName, string extension)
+    public async Task<string> UploadImageAsync(Stream imageStream, string imageName, string extension, string contentType)
     {
         // MultipartFormDataContent para enviar el archivo por POST
         var form = new MultipartFormDataContent();
@@ -25,13 +25,13 @@ public class ImageBbService : ILoadImagesService
         // StreamContent encapsula el Stream del archivo a enviar
         var imageContent = new StreamContent(imageStream);
         // Asignar el tipo de contenido del archivo
-        imageContent.Headers.ContentType = new MediaTypeHeaderValue($"image/png");
+        imageContent.Headers.ContentType = new MediaTypeHeaderValue(contentType);
         
         // Agregar el contenido del archivo al formulario
         form.Add(imageContent, "image", imageName);
         
-        var client = _httpClientFactory.CreateClient(ApiNames.ImageBb);
-        var url = $"expiration={_options.ExpirationSeconds}&key={_options.ApiToken}";
+        using var client = _httpClientFactory.CreateClient(ApiNames.ImageBb);
+        var url = $"?expiration={_options.ExpirationSeconds}&key={_options.ApiKey}";
         var response = await client.PostAsync(url, form);
 
         if (response.IsSuccessStatusCode)

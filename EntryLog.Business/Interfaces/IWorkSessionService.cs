@@ -1,5 +1,6 @@
 using EntryLog.Business.DTOs;
 using EntryLog.Business.QueryFilters;
+using Microsoft.AspNetCore.Http;
 
 namespace EntryLog.Business.Interfaces;
 

@@ -1,7 +1,8 @@
 namespace EntryLog.Business.ImageBB;
 
-public record ImageBbOptions(
-    string ApiUrl,
-    string ApiToken,
-    int ExpirationSeconds
-    );
+public class ImageBbOptions
+{
+    public string ApiUrl { get; set; }
+    public string ApiKey { get; set; }  
+    public int ExpirationSeconds { get; set; }
+}

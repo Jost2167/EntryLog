@@ -12,7 +12,7 @@ public class TestController : ControllerBase
     
     public TestController(IAppUserService appUserService)
     {
-        _appUserService=appUserService;
+        _appUserService=appUserService; 
     }
 
     [HttpPost("registrar-usuario")]
@@ -29,12 +29,12 @@ public class TestController : ControllerBase
     [HttpPost("iniciar-sesion-usuario")]
     public async Task<IActionResult> IniciarSesionAppUser([FromBody] UserCredentialsDTO userCredenTO)
     {
-        var tupla = _appUserService.UserLoginAsync(userCredenTO);
+        var tupla = await _appUserService.UserLoginAsync(userCredenTO);
         
-        if (!tupla.Result.sucess)
-            return BadRequest(new { sucess = false, message = tupla.Result.message });
+        if (!tupla.sucess)
+            return BadRequest(new { sucess = false, message = tupla.message });
         
-        return Ok(new { sucess = true, message = tupla.Result.message, data = tupla.Result.loginResponseDTO });
+        return Ok(new { sucess = true, message = tupla.message, data = tupla.loginResponseDTO });
     }
 
     [HttpPost("iniciar-recuperacion-usuario")]
