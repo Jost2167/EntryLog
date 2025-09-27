@@ -1,4 +1,5 @@
 using EntryLog.Business.DTOs;
+using EntryLog.Business.Inraestructure;
 using EntryLog.Business.Interfaces;
 using EntryLog.Business.Mailtrap.Models;
 using EntryLog.Data.Interfaces;
@@ -14,19 +15,22 @@ namespace EntryLog.Business.Services
         private readonly IPasswordHasherService _passwordHasherService;
         private readonly IEncryptionService _encryptionService;
         private readonly IEmailSendService _emailSendService;
+        private readonly IUriService _uriService;
 
         public AppUserService(
             IEmployeeRepository employeeRepository, 
             IAppUserRepository appUserRepository, 
             IPasswordHasherService passwordHasherService,
             IEncryptionService encryptionService,
-            IEmailSendService emailSendService)
+            IEmailSendService emailSendService,
+            IUriService uriService)
         {
             _appUserRepository = appUserRepository;
             _employeeRepository = employeeRepository;
             _passwordHasherService = passwordHasherService;
             _encryptionService = encryptionService;
             _emailSendService = emailSendService;
+            _uriService = uriService;
         }
 
         public async Task<(bool sucess, string message, LoginResponseDTO? loginResponseDTO)> RegisterEmployeeAsync(CreateEmployeeUserDTO userDTO)
@@ -127,7 +131,7 @@ namespace EntryLog.Business.Services
             RecoveryAccountVariables variables = new RecoveryAccountVariables
             {
                  Name = appUser.Name,
-                 Url = $"https://localhost:5000/account/recovery?token={recoveryTokenEncrypted}"
+                 Url = $"{_uriService.ApplicationUrl}/account/recovery?token={recoveryTokenEncrypted}"
             };
             
             // Enviar el token por email

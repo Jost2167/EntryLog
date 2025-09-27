@@ -5,12 +5,9 @@ namespace EntryLog.Business.DTOs
     public record CreateWorkSessionDTO
     (
         string EmployeeId,
-        string Method,
-        string DeviceName,
         IFormFile Image,
         string Latitude,
         string Longitude,
-        string IpAddress,
-        string Note        
+        string? Note        
     );
 }

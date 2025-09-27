@@ -1,18 +1,13 @@
 using EntryLog.Data.Constants;
 using EntryLog.Data.Interfaces;
+using EntryLog.Data.Pagination;
 using EntryLog.Entities.Entities;
 using MongoDB.Driver;
 
 namespace EntryLog.Data.MongoDb.Repositories;
 
-public class AppUserRepository : IAppUserRepository
+public class AppUserRepository(IMongoDatabase database) : BaseRepository<AppUser>(database, CollectionNames.Users), IAppUserRepository
 {
-    private readonly IMongoCollection<AppUser> _collection; 
-        
-    public AppUserRepository(IMongoDatabase database)
-    {
-        _collection = database.GetCollection<AppUser>(CollectionNames.Users);
-    }
     
     public async Task CreateAsync(AppUser appUser)
     { 
@@ -43,5 +38,10 @@ public class AppUserRepository : IAppUserRepository
     public Task<AppUser> GetByRecoveryTokenAsync(string token)
     {
         return _collection.Find(u=>u.RecoveryToken == token && u.RecoveryTokenActive).FirstOrDefaultAsync();
+    }
+
+    public Task<PagedResult<AppUser>> GetAllPagingAsync(int pageNumber, int pageSize)
+    {
+        throw new NotImplementedException();
     }
 }

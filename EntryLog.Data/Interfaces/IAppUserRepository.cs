@@ -2,7 +2,7 @@ using EntryLog.Entities.Entities;
 
 namespace EntryLog.Data.Interfaces;
 
-public interface IAppUserRepository
+public interface IAppUserRepository : IBaseRepository<AppUser>
 {
     Task CreateAsync(AppUser appUser);
     Task UpdateAsync(AppUser appUser);

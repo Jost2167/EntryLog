@@ -5,18 +5,13 @@ using Microsoft.AspNetCore.Mvc;
 namespace EntryLog.Api.Controllers;
 
 [ApiController]
-[Route("test")]
-public class TestController : ControllerBase
+[Route("api/account")]
+public class AccountController(IAppUserService appUserService) : ControllerBase
 {
-    private readonly IAppUserService _appUserService;
+    private readonly IAppUserService _appUserService = appUserService;
     
-    public TestController(IAppUserService appUserService)
-    {
-        _appUserService=appUserService; 
-    }
-
-    [HttpPost("registrar-usuario")]
-    public async Task<IActionResult> RegistrarAppUser([FromBody] CreateEmployeeUserDTO userDTO)
+    [HttpPost("register-user")]
+    public async Task<IActionResult> RegisterUser([FromBody] CreateEmployeeUserDTO userDTO)
     {
         var tupla = await _appUserService.RegisterEmployeeAsync(userDTO);
 
@@ -26,8 +21,8 @@ public class TestController : ControllerBase
         return Ok(new { sucess = true, message = tupla.message, data = tupla.loginResponseDTO });
     }
 
-    [HttpPost("iniciar-sesion-usuario")]
-    public async Task<IActionResult> IniciarSesionAppUser([FromBody] UserCredentialsDTO userCredenTO)
+    [HttpPost("login-user")]
+    public async Task<IActionResult> LoginUser([FromBody] UserCredentialsDTO userCredenTO)
     {
         var tupla = await _appUserService.UserLoginAsync(userCredenTO);
         
@@ -37,8 +32,8 @@ public class TestController : ControllerBase
         return Ok(new { sucess = true, message = tupla.message, data = tupla.loginResponseDTO });
     }
 
-    [HttpPost("iniciar-recuperacion-usuario")]
-    public async Task<IActionResult> IniciarRecuperacion([FromBody] string email)
+    [HttpPost("start-account-recovery")]
+    public async Task<IActionResult> StartAccountRecovery([FromBody] string email)
     {
         var tupla = await _appUserService.AccountRecoveryStartAsync(email);
         
@@ -48,8 +43,8 @@ public class TestController : ControllerBase
         return Ok( new { sucess = true, message = tupla.message });
     }
 
-    [HttpPost("completar-recuperacion-usuario")]
-    public async Task<IActionResult> CompletarRecueperacion([FromBody] AccountRecoveryDTO accountRecoveryDTO)
+    [HttpPost("complete-account-recovery")]
+    public async Task<IActionResult> CompleteAccountRecovery([FromBody] AccountRecoveryDTO accountRecoveryDTO)
     {
 
         var tupla = await _appUserService.AccountRecoveryCompleteAsync(accountRecoveryDTO);
@@ -59,4 +54,5 @@ public class TestController : ControllerBase
         
         return Ok( new { sucess = true, message = tupla.message });
     }
+    
 }

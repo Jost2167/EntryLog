@@ -1,6 +1,5 @@
 using EntryLog.Data.Constants;
 using EntryLog.Data.Interfaces;
-using EntryLog.Data.Specifications;
 using EntryLog.Entities.Entities;
 using EntryLog.Entities.Enums;
 using MongoDB.Driver;
@@ -9,13 +8,8 @@ namespace EntryLog.Data.MongoDb.Repositories;
 
 // Se deber descargar la dependencia de MongoDB.Driver
 // IMongoDatabase es una interfaz que representa la base de datos MongoDB
-public class WorkSessionRepository(IMongoDatabase database) : IWorkSessionRepository
+public class WorkSessionRepository(IMongoDatabase database) : BaseRepository<WorkSession>(database, CollectionNames.WorkSessions ),IWorkSessionRepository
 {
-    // IMongoCollection<T> es una interfaz que representa una colección de documentos en MongoDB
-    // Esta colección representa la colección de sesiones de trabajo en MongoDB 
-    private readonly IMongoCollection<WorkSession> _collection =
-        database.GetCollection<WorkSession>(CollectionNames.WorkSessions);
-
     // Crea una nueva sesión de trabajo en la colección
     public async Task CreateAsync(WorkSession workSession)
     {
@@ -38,11 +32,6 @@ public class WorkSessionRepository(IMongoDatabase database) : IWorkSessionReposi
     public async Task<WorkSession?> GetByEmployeeIdAsync(int employeeId)
     {
         return await _collection.Find(w => w.EmployeeId == employeeId).FirstOrDefaultAsync();
-    }
-
-    public Task<IEnumerable<WorkSession>> GetAllAsync(ISpecification<WorkSession> spec)
-    {
-        throw new NotImplementedException();
     }
     
     public async Task<WorkSession?> GetActiveSessionByEmployeeIdAsync(int employeeId)

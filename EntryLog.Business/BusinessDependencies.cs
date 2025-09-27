@@ -2,6 +2,8 @@ using System.Net.Http.Headers;
 using EntryLog.Business.Constants;
 using EntryLog.Business.Cryptography;
 using EntryLog.Business.ImageBB;
+using EntryLog.Business.Infraestructure;
+using EntryLog.Business.Inraestructure;
 using EntryLog.Business.Interfaces;
 using EntryLog.Business.Mailtrap;
 using EntryLog.Business.Mailtrap.Models;
@@ -45,6 +47,11 @@ public static class BusinessDependencies
         service.AddScoped<IWorkSessionService, WorkSessionService>();
         
         // Servicios de infraestructura
+        
+        // Permite acceder al contexto HTTP actual inyectando el objeto IHttpContextAccessor
+        service.AddHttpContextAccessor();
+        
+        service.AddScoped<IUriService, UriService>();
         service.AddScoped<IEmailSendService, MailtrapApiService>();
         service.AddScoped<IEncryptionService, RSAAsymmetricEncryptionService>();
         service.AddScoped<IPasswordHasherService, Argon2PasswordHasherService>();

@@ -1,10 +1,12 @@
 using EntryLog.Business.DTOs;
 using EntryLog.Business.ImageBB;
+using EntryLog.Business.Inraestructure;
 using EntryLog.Business.Interfaces;
 using EntryLog.Business.Mappers;
 using EntryLog.Business.QueryFilters;
 using EntryLog.Business.Specs;
 using EntryLog.Data.Interfaces;
+using EntryLog.Data.Pagination;
 using EntryLog.Entities.Entities;
 using EntryLog.Entities.Enums;
 using Microsoft.AspNetCore.Http;
@@ -17,17 +19,20 @@ public class WorkSessionService : IWorkSessionService
     private readonly IWorkSessionRepository _workSessionRepository;
     private readonly IEmployeeRepository _employeeRepository;
     private readonly ILoadImagesService _loadImagesService;
+    private readonly IUriService _uriService;
 
     public WorkSessionService(
         IAppUserRepository appUserRepository,
         IWorkSessionRepository workSessionRepository,
         IEmployeeRepository employeeRepository,
-        ILoadImagesService loadImagesService)
+        ILoadImagesService loadImagesService,
+        IUriService uriService)
     {
         _appUserService = appUserRepository;
         _workSessionRepository = workSessionRepository;
         _employeeRepository = employeeRepository;    
         _loadImagesService = loadImagesService;
+        _uriService = uriService;
     }
     
     public async Task<(bool sucess, string message)> OpenWorkSessionAsync(CreateWorkSessionDTO createWorkSessionDTO)
@@ -46,18 +51,9 @@ public class WorkSessionService : IWorkSessionService
 
         if (activeSession != null)
             return (false, "Ya existe una sesión de trabajo activa para el empleado");
-
-        // Leer la imagen del formulario
-        Stream imageStream = createWorkSessionDTO.Image.OpenReadStream();
-        // Obtener el nombre de la imagen
-        var nombreImagen = createWorkSessionDTO.Image.FileName;
-        // Obtener la extensión de la imagen
-        var extension = Path.GetExtension(nombreImagen);
-        // Obtener el tipo de contenido de la imagen
-        var contentType = createWorkSessionDTO.Image.ContentType;
         
-        // Servicio para cargar la imagen y obtener la URL
-        string imageUrl = await _loadImagesService.UploadImageAsync(imageStream, nombreImagen, extension, contentType);
+        // Subir la imagen y obtener la URL
+        string imageUrl = await UploadImageAsync(createWorkSessionDTO.Image);
         
         // Crear una nueva sesión de trabajo
         WorkSession workSession = new WorkSession()
@@ -66,8 +62,8 @@ public class WorkSessionService : IWorkSessionService
             Status = SessionStatus.InProgress,
             CheckIn = new Check
             {
-                Method = createWorkSessionDTO.Method,
-                DeviceName = createWorkSessionDTO.DeviceName,
+                Method = _uriService.UserAgent,
+                DeviceName = _uriService.Platform,
                 PhotoUrl = imageUrl,
                 Note = createWorkSessionDTO.Note,
                 Date = DateTime.UtcNow,
@@ -75,7 +71,7 @@ public class WorkSessionService : IWorkSessionService
                 {
                     Latitude = createWorkSessionDTO.Latitude,
                     Longitude = createWorkSessionDTO.Longitude,
-                    IpAddress = createWorkSessionDTO.IpAddress
+                    IpAddress = _uriService.RemoteIpAddress
                 }
             }
         };
@@ -103,18 +99,21 @@ public class WorkSessionService : IWorkSessionService
 
         if (activeSession == null)
             return (false, "No hay una sesión de trabajo activa para el empleado");
+        
+        // Subir la imagen y obtener la URL
+        string imageUrl = await UploadImageAsync(closeWorkSessionDTO.Image);
 
         // Actualizar la sesión de trabajo con los datos de cierre
         // Unicamente se actulizan los campos de CheckOut y Status porque los demás campos ya estan cargados
         activeSession.CheckOut ??= new Check();
-        activeSession.CheckOut.Method = closeWorkSessionDTO.Method;
-        activeSession.CheckOut.DeviceName = closeWorkSessionDTO.DeviceName;
-        activeSession.CheckOut.PhotoUrl = "";
+        activeSession.CheckOut.Method = _uriService.UserAgent;
+        activeSession.CheckOut.DeviceName = _uriService.Platform;
+        activeSession.CheckOut.PhotoUrl = imageUrl;
         activeSession.CheckOut.Note = closeWorkSessionDTO.Note;
         activeSession.CheckOut.Date = DateTime.UtcNow;
         activeSession.CheckOut.Location.Longitude = closeWorkSessionDTO.Longitude;
         activeSession.CheckOut.Location.Latitude = closeWorkSessionDTO.Latitude;
-        activeSession.CheckOut.Location.IpAddress = closeWorkSessionDTO.IpAddress;
+        activeSession.CheckOut.Location.IpAddress = _uriService.RemoteIpAddress;
         activeSession.Status = SessionStatus.Completed;
 
         await _workSessionRepository.UpdateAsync(activeSession);
@@ -122,6 +121,31 @@ public class WorkSessionService : IWorkSessionService
         return (true, "Sesión de trabajo cerrada correctamente");
     }
 
+    public async Task<PagedResult<WorkSession>> GetAllPagingAsync(PaginationParameters paginationParameters)
+    {
+        return await _workSessionRepository.GetAllPagingAsync(paginationParameters.PageNumber, paginationParameters.PageSize);
+    }
+
+    /*
+    public async Task<IEnumerable<GetWorkSessionDTO>> GetSessionsByFilterAsync(WorkSessionQueryFilter filter)
+    {
+        WorkSessionSpec spec = new WorkSessionSpec();
+
+        if (filter.EmployeeId.HasValue)
+        {
+            // Filtrar Worksessions por EmployeeId
+            spec.AndAlso(x => x.EmployeeId == filter.EmployeeId.Value);
+        }
+
+        IEnumerable<WorkSession> sessions = await _workSessionRepository.GetAllAsync(spec);
+
+        // Mapear las sesiones de trabajo a DTOs
+        IEnumerable<GetWorkSessionDTO> sessionDTOs = sessions.Select(w=> WorkSessionMapper.MapToGetWorkSessionDTO(w));
+        
+        return sessionDTOs;
+    }
+    */
+    
     private async Task<(bool sucess, string message)> ValidateEmployeeUserAsync(int code)
     {
 
@@ -139,22 +163,19 @@ public class WorkSessionService : IWorkSessionService
 
         return (true, "");
     }
-
-    public async Task<IEnumerable<GetWorkSessionDTO>> GetSessionsByFilterAsync(WorkSessionQueryFilter filter)
+    
+    private async Task<string> UploadImageAsync(IFormFile file)
     {
-        WorkSessionSpec spec = new WorkSessionSpec();
-
-        if (filter.EmployeeId.HasValue)
-        {
-            // Filtrar Worksessions por EmployeeId
-            spec.AndAlso(x => x.EmployeeId == filter.EmployeeId.Value);
-        }
-
-        IEnumerable<WorkSession> sessions = await _workSessionRepository.GetAllAsync(spec);
-
-        // Mapear las sesiones de trabajo a DTOs
-        IEnumerable<GetWorkSessionDTO> sessionDTOs = sessions.Select(w=> WorkSessionMapper.MapToGetWorkSessionDTO(w));
+        // Leer la imagen del formulario
+        Stream imageStream = file.OpenReadStream();
+        // Obtener el nombre de la imagen
+        var nombreImagen = file.FileName;
+        // Obtener la extensión de la imagen
+        var extension = Path.GetExtension(nombreImagen);
+        // Obtener el tipo de contenido de la imagen
+        var contentType = file.ContentType;
         
-        return sessionDTOs;
+        // Servicio para cargar la imagen y obtener la URL
+        return await _loadImagesService.UploadImageAsync(imageStream, nombreImagen, extension, contentType);
     }
 }
