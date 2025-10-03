@@ -14,9 +14,10 @@ public static class HttpContextExtensions
         // 1. Crear los claims -> los claims son pares clave-valor que representan información sobre el usuario
         var claims = new List<Claim>()
         {
-            new Claim(ClaimTypes.Name, data.DocumentNumber.ToString()),
+            new Claim(ClaimTypes.NameIdentifier, data.DocumentNumber.ToString()),
             new Claim(ClaimTypes.Email, data.Email),
-            new Claim(ClaimTypes.Role, data.Rol)
+            new Claim(ClaimTypes.Role, data.Rol),
+            new Claim(ClaimTypes.Name, data.Name)
         };
         
         // 2. Crear una identidad -> la identidad es un conjunto de claims, ademas del tipo de autenticacion
