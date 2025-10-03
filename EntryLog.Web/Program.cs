@@ -1,11 +1,24 @@
 using EntryLog.Business;
 using EntryLog.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Configurar autenticación por cookies
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login"; // Ruta a la que se redirige si no está autenticado
+        options.LogoutPath = "/Account/Logout"; // Ruta para cerrar sesión
+        options.AccessDeniedPath = "/Account/AccessDenied"; // Ruta a la que se redirige si no tiene permiso
+    });
+
+// Configurar sesión
+builder.Services.AddSession();
 
 // Agregar servicios de otras capas
 builder.Services.AddBusinessDependencies(builder.Configuration);
@@ -29,9 +42,10 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseSession();
 app.UseRouting();
 
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

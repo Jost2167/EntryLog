@@ -1,5 +1,6 @@
 using EntryLog.Business.DTOs;
 using EntryLog.Business.Interfaces;
+using EntryLog.Web.Extensions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,6 +24,7 @@ public class AccountController : Controller
     
     [HttpPost]
     [AllowAnonymous]
+    // ValidateAntiForgeryToken se usa para prevenir ataques CSRF
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> RegisterEmployeeUserAsync([FromBody] CreateEmployeeUserDTO user)
     {
@@ -31,6 +33,9 @@ public class AccountController : Controller
 
         if (success)
         {
+            // Iniciar sesion
+            await HttpContext.SignInCookieAsync(loginResponseDto!);
+            
             return Json(new
             {
                 success,
@@ -46,5 +51,4 @@ public class AccountController : Controller
             });
         }
     }
-
 }
