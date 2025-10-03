@@ -1,0 +1,1885 @@
+{
+  "Files": [
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/obj/Debug/net8.0/scopedcss/projectbundle/EntryLog.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets/EntryLog.Web.bundle.scp.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/assets/images/logo_entrylog_dark.png",
+      "PackagePath": "staticwebassets/assets/images/logo_entrylog_dark.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/js/account.register.js",
+      "PackagePath": "staticwebassets/js/account.register.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/demo.css",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/demo.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/demo.css.map",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/demo.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/fonts.css",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/fonts.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/fonts.min.css",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/fonts.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/kaiadmin.css",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/kaiadmin.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/kaiadmin.css.map",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/kaiadmin.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/kaiadmin.min.css",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/kaiadmin.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/plugins.css",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/plugins.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/plugins.css.map",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/plugins.css.map"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/css/plugins.min.css",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/css/plugins.min.css"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-brands-400.eot"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-brands-400.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-brands-400.woff"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-regular-400.eot"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-regular-400.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-regular-400.woff"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-solid-900.eot"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-solid-900.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-solid-900.woff"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/fontawesome/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/fontawesome/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/simple-line-icons/Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/simple-line-icons/Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/simple-line-icons/Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/simple-line-icons/Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/simple-line-icons/Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/simple-line-icons/Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/simple-line-icons/Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/simple-line-icons/Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/summernote/summernote.eot",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/summernote/summernote.eot"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/summernote/summernote.ttf",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/summernote/summernote.ttf"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/summernote/summernote.woff",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/summernote/summernote.woff"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/fonts/summernote/summernote.woff2",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/fonts/summernote/summernote.woff2"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/arashmil.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/arashmil.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/bg-404.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/bg-404.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/blogpost.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/blogpost.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/chadengle.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/chadengle.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example1-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example1-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example1.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example1.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example10-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example10-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example10.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example10.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example11-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example11-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example11.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example11.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example12-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example12-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example12.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example12.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example2-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example2-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example2.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example2.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example3-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example3-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example3.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example3.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example4-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example4-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example4.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example4.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example5-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example5-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example5.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example5.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example6-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example6-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example6.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example6.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example7-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example7-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example7.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example7.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example8-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example8-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example8.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example8.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example9-300x300.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example9-300x300.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/example9.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/example9.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/logo.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/logo.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/logo1.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/logo1.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/logo2.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/logo2.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/logoinvoice.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/logoinvoice.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product1.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product1.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product10.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product10.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product11.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product11.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product12.jpeg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product12.jpeg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product2.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product2.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product3.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product3.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product4.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product4.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product5.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product5.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product6.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product6.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product7.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product7.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/examples/product8.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/examples/product8.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ad.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ad.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ae.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ae.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/af.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/af.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ag.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ag.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ai.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ai.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/al.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/al.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/am.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/am.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/an.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/an.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ao.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ao.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ar.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ar.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/as.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/as.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/at.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/at.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/au.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/au.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/aw.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/aw.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ax.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ax.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/az.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/az.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ba.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ba.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bb.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bb.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bd.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bd.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/be.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/be.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bf.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bf.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bg.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bg.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bh.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bh.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bi.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bi.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bj.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bj.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bn.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bn.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bo.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bo.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/br.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/br.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bs.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bs.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bt.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bt.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bv.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bv.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bw.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bw.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/by.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/by.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/bz.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/bz.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ca.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ca.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/catalonia.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/catalonia.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cc.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cc.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cd.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cd.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cf.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cf.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cg.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cg.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ch.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ch.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ci.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ci.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ck.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ck.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cl.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cl.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cn.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cn.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/co.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/co.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cs.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cs.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cu.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cu.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cv.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cv.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cx.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cx.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cy.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cy.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/cz.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/cz.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/de.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/de.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/dj.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/dj.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/dk.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/dk.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/dm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/dm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/do.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/do.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/dz.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/dz.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ec.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ec.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ee.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ee.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/eg.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/eg.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/eh.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/eh.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/england.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/england.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/er.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/er.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/es.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/es.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/et.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/et.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/europeanunion.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/europeanunion.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/fam.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/fam.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/fi.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/fi.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/fj.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/fj.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/fk.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/fk.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/fm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/fm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/fo.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/fo.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/fr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/fr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ga.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ga.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gb.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gb.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gd.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gd.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ge.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ge.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gf.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gf.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gh.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gh.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gi.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gi.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gl.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gl.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gn.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gn.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gp.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gp.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gq.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gq.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gs.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gs.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gt.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gt.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gu.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gu.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gw.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gw.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/gy.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/gy.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/hk.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/hk.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/hm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/hm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/hn.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/hn.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/hr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/hr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ht.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ht.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/hu.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/hu.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/id.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/id.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ie.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ie.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/il.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/il.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/in.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/in.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/io.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/io.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/iq.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/iq.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ir.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ir.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/is.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/is.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/it.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/it.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/jm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/jm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/jo.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/jo.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/jp.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/jp.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ke.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ke.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/kg.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/kg.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/kh.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/kh.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ki.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ki.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/km.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/km.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/kn.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/kn.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/kp.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/kp.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/kr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/kr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/kw.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/kw.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ky.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ky.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/kz.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/kz.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/la.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/la.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/lb.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/lb.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/lc.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/lc.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/li.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/li.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/lk.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/lk.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/lr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/lr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ls.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ls.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/lt.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/lt.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/lu.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/lu.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/lv.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/lv.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ly.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ly.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ma.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ma.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mc.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mc.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/md.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/md.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/me.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/me.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mg.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mg.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mh.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mh.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mk.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mk.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ml.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ml.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mn.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mn.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mo.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mo.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mp.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mp.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mq.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mq.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ms.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ms.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mt.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mt.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mu.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mu.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mv.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mv.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mw.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mw.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mx.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mx.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/my.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/my.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/mz.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/mz.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/na.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/na.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/nc.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/nc.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ne.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ne.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/nf.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/nf.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ng.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ng.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ni.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ni.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/nl.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/nl.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/no.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/no.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/np.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/np.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/nr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/nr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/nu.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/nu.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/nz.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/nz.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/om.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/om.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pa.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pa.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pe.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pe.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pf.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pf.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pg.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pg.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ph.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ph.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pk.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pk.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pl.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pl.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pn.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pn.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ps.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ps.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pt.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pt.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/pw.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/pw.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/py.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/py.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/qa.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/qa.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/re.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/re.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/readme.txt",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/readme.txt"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ro.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ro.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/rs.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/rs.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ru.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ru.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/rw.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/rw.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sa.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sa.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sb.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sb.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sc.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sc.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/scotland.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/scotland.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sd.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sd.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/se.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/se.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sg.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sg.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sh.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sh.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/si.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/si.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sj.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sj.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sk.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sk.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sl.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sl.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sn.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sn.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/so.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/so.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/st.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/st.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sv.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sv.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sy.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sy.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/sz.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/sz.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tc.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tc.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/td.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/td.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tf.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tf.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tg.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tg.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/th.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/th.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tj.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tj.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tk.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tk.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tl.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tl.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tn.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tn.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/to.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/to.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tr.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tr.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tt.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tt.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tv.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tv.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tw.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tw.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/tz.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/tz.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ua.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ua.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ug.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ug.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/um.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/um.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/us.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/us.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/uy.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/uy.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/uz.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/uz.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/va.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/va.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/vc.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/vc.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ve.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ve.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/vg.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/vg.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/vi.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/vi.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/vn.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/vn.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/vu.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/vu.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/wales.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/wales.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/wf.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/wf.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ws.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ws.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/ye.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/ye.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/yt.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/yt.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/za.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/za.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/zm.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/zm.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/flags/zw.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/flags/zw.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/img-shadow.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/img-shadow.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/jm_denis.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/jm_denis.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/demo1.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/demo1.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/demo2.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/demo2.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/demo3.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/demo3.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/demo4.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/demo4.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/demo5.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/demo5.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/demo6.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/demo6.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/demo7.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/demo7.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/demo8.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/demo8.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/demo9.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/demo9.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/favicon.ico",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/favicon.ico"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/favicon.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/favicon.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/favicon.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/favicon.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/icon.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/icon.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/icon.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/icon.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/logo_dark.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/logo_dark.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/logo_dark.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/logo_dark.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/logo_documentation.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/logo_documentation.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/logo_light.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/logo_light.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/kaiadmin/logo_light.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/kaiadmin/logo_light.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/logoproduct.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/logoproduct.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/logoproduct2.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/logoproduct2.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/logoproduct3.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/logoproduct3.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/mlane.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/mlane.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/profile.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/profile.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/profile2.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/profile2.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/sauro.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/sauro.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/talha.jpg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/talha.jpg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_Hello_qnas.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_Hello_qnas.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_Taken_if77.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_Taken_if77.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_blank_canvas_3rbb.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_blank_canvas_3rbb.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_creative_team_r90h.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_creative_team_r90h.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_empty_xct9.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_empty_xct9.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_no_data_qbuo.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_no_data_qbuo.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_not_found_60pq.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_not_found_60pq.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_page_not_found_su7k.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_page_not_found_su7k.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_sign_in_e6hj.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_sign_in_e6hj.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_tabs_jf82.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_tabs_jf82.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_update_uxn2.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_update_uxn2.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/undraw/undraw_upgrade_06a0.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/undraw/undraw_upgrade_06a0.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/img/visa.svg",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/img/visa.svg"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/core/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/core/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/core/jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/core/jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/core/popper.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/core/popper.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/demo.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/demo.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/kaiadmin.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/kaiadmin.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/kaiadmin.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/kaiadmin.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/bootstrap-tagsinput/bootstrap-tagsinput.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/bootstrap-tagsinput/bootstrap-tagsinput.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/chart-circle/circles.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/chart-circle/circles.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/chart.js/chart.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/chart.js/chart.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/datatables/datatables.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/datatables/datatables.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/datepicker/bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/datepicker/bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/dropzone/dropzone.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/dropzone/dropzone.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/fullcalendar/fullcalendar.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/fullcalendar/fullcalendar.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/gmaps/gmaps.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/gmaps/gmaps.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/jquery.magnific-popup/jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/jquery.magnific-popup/jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/jquery.validate/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/jquery.validate/jquery.validate.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/jsvectormap/jsvectormap.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/jsvectormap/jsvectormap.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/jsvectormap/world.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/jsvectormap/world.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/list.js/list.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/list.js/list.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/moment/moment.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/moment/moment.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/owl-carousel/ajax-loader.gif",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/owl-carousel/ajax-loader.gif"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/owl-carousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/owl-carousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/owl-carousel/owl.video.play.png",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/owl-carousel/owl.video.play.png"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/select2/select2.full.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/select2/select2.full.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/sortable/sortable.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/sortable/sortable.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/sticky-sidebar/sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/sticky-sidebar/sticky-sidebar.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/summernote/summernote-lite.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/summernote/summernote-lite.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/sweetalert/sweetalert.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/sweetalert/sweetalert.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/plugin/webfont/webfont.min.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/plugin/webfont/webfont.min.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/setting-demo.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/setting-demo.js"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/lib/kaiadmin/assets/js/setting-demo2.js",
+      "PackagePath": "staticwebassets/lib/kaiadmin/assets/js/setting-demo2.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.EntryLog.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.EntryLog.Web.props",
+      "PackagePath": "build\\EntryLog.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.EntryLog.Web.props",
+      "PackagePath": "buildMultiTargeting\\EntryLog.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.EntryLog.Web.props",
+      "PackagePath": "buildTransitive\\EntryLog.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

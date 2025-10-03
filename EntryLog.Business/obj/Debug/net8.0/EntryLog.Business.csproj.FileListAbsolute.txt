@@ -15,3 +15,4 @@
 /home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/bin/Debug/net8.0/EntryLog.Entities.pdb
 /home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.Business.csproj.AssemblyReference.cache
 /home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.E334FCFB.Up2Date
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Business/obj/Debug/net8.0/EntryLog.Business.sourcelink.json

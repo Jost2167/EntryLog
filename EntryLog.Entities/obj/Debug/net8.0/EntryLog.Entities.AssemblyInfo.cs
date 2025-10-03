@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntryLog.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4db99bae7d443ac0907b28ebb402e480368d0e52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c65940bc1c3939dc158e5a66750c153ac3d33b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntryLog.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntryLog.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

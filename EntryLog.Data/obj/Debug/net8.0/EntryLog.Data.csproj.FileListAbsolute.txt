@@ -13,3 +13,4 @@
 /home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/refint/EntryLog.Data.dll
 /home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/EntryLog.Data.pdb
 /home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/ref/EntryLog.Data.dll
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Data/obj/Debug/net8.0/EntryLog.Data.sourcelink.json
