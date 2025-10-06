@@ -96,4 +96,14 @@ public class AccountController : Controller
             });
         }
     }
+
+    [HttpGet]
+    [Authorize]
+    public async Task<IActionResult> LogoutEmployeeUserAsync()
+    {
+        await HttpContext.SignOutCookieAsync();
+        return RedirectToAction("LoginEmployeeUser");
+    }
+    
+    
 }

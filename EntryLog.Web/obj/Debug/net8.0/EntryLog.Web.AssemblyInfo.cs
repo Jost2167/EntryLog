@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntryLog.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85c6b4b417ba2d03a69660ca88cf04ad9c51ef46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12dc79bb8d837d9c508dd83fb8ef64be39d5806b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntryLog.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntryLog.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
