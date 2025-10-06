@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using EntryLog.Business.DTOs;
 using EntryLog.Business.Interfaces;
 using EntryLog.Web.Extensions;
@@ -56,8 +57,16 @@ public class AccountController : Controller
     [AllowAnonymous]
     public IActionResult LoginEmployeeUser()
     {
-        return View();
+        // User representa al usuario autenticado
+        ClaimsPrincipal principal = HttpContext.User;
         
+        // Si el usuario ya esta autenticado, redirigir a la pagina principal
+        if (principal.Identity != null && principal.Identity.IsAuthenticated)
+        {
+            return RedirectToAction("Index","Main");
+        }
+        
+        return View();
     }
 
     [HttpPost]
