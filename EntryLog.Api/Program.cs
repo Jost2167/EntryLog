@@ -10,8 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDataServices(builder.Configuration);
-builder.Services.AddBusinessDependecies(builder.Configuration);
+builder.Services.AddDataDependencies(builder.Configuration);
+builder.Services.AddBusinessDependencies(builder.Configuration);
 
 var app = builder.Build();
 

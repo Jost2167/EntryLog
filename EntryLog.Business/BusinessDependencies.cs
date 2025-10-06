@@ -16,7 +16,7 @@ namespace EntryLog.Business;
 
 public static class BusinessDependencies
 {
-    public static IServiceCollection AddBusinessDependecies(this IServiceCollection service, IConfiguration configuration)
+    public static IServiceCollection AddBusinessDependencies(this IServiceCollection service, IConfiguration configuration)
     {
         // Configuracion IOptions
         service.Configure<MailtrapApiOptions>(configuration.GetSection("MailtrapApiOptions"));

@@ -51,4 +51,40 @@ public class AccountController : Controller
             });
         }
     }
+
+    [HttpGet]
+    [AllowAnonymous]
+    public IActionResult LoginEmployeeUser()
+    {
+        return View();
+        
+    }
+
+    [HttpPost]
+    [AllowAnonymous]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> LoginEmployeeUserAsync([FromBody] UserCredentialsDTO userCredentials)
+    {
+        (bool success, string message, LoginResponseDTO? loginResponseDto) = await _appUserService.UserLoginAsync(userCredentials);
+
+        if (success)
+        {
+            // Iniciar sesión
+            await HttpContext.SignInCookieAsync(loginResponseDto!);
+            
+            return Json(new
+            {
+                success,
+                path = "/main/index"
+            });
+        }
+        else
+        {
+            return Json(new
+            {   
+                success,
+                message
+            });
+        }
+    }
 }

@@ -8,5 +8,4 @@ namespace EntryLog.Business.DTOs
         string Password,
         string PasswordConf
     );
-    
 }

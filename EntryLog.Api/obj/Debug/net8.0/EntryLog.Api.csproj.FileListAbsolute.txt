@@ -90,3 +90,4 @@
 /home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Api/bin/Debug/net8.0/EntryLog.Business.pdb
 /home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Api/bin/Debug/net8.0/EntryLog.Data.pdb
 /home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Api/bin/Debug/net8.0/EntryLog.Entities.pdb
+/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Api/obj/Debug/net8.0/EntryLog.Api.sourcelink.json

@@ -9,12 +9,20 @@
       "PackagePath": "staticwebassets/assets/images/logo_entrylog_dark.png"
     },
     {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/assets/images/logo_entrylog_light.png",
+      "PackagePath": "staticwebassets/assets/images/logo_entrylog_light.png"
+    },
+    {
       "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/js/account.login.js",
+      "PackagePath": "staticwebassets/js/account.login.js"
     },
     {
       "Id": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/js/account.register.js",

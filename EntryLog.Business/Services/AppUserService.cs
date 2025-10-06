@@ -76,7 +76,7 @@ namespace EntryLog.Business.Services
             // Crear el usuario del empleado
             await _appUserRepository.CreateAsync(appUserNew);
             
-            return (true, "Registro exitoso", new LoginResponseDTO(appUserNew.Code, appUserNew.Role.ToString(), appUserNew.Email));
+            return (true, "Registro exitoso", new LoginResponseDTO(appUserNew.Code, appUserNew.Role.ToString(), appUserNew.Email, appUserNew.Name));
         }
 
         public async Task<(bool sucess, string message, LoginResponseDTO? loginResponseDTO)> UserLoginAsync(UserCredentialsDTO userCredentialsDTO)
@@ -98,7 +98,7 @@ namespace EntryLog.Business.Services
             }
             
             // Login exitoso
-            return (true, "Login exitoso", new LoginResponseDTO(appUser.Code, appUser.Role.ToString(), appUser.Email));
+            return (true, "Login exitoso", new LoginResponseDTO(appUser.Code, appUser.Role.ToString(), appUser.Email, appUser.Name));
         }
 
         public async Task<(bool sucess, string message)> AccountRecoveryStartAsync(string email)

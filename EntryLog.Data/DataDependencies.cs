@@ -16,7 +16,7 @@ namespace EntryLog.Data;
 public static class DataDependencies
 {
     // IConfiguration permite acceder a la configuracion de la aplicacion (appsettings.json)
-    public static IServiceCollection AddDataServices(this IServiceCollection services,
+    public static IServiceCollection AddDataDependencies(this IServiceCollection services,
         IConfiguration configuration)
     {
         // Cadena de conexion a la base de datos

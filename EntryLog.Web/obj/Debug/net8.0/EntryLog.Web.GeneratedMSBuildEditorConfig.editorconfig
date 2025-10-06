@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/Views/Account/LoginEmployeeUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbkVtcGxveWVlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/Views/Account/RegisterEmployeeUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3RlckVtcGxveWVlVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

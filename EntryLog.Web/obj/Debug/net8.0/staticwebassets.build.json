@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZBM4AleqifztO2fybugtle8OiqeQa1diOsRLvD821xQ=",
+  "Hash": "9pvuDp/DaBqNJE2JccMb5g0nzRBBwaLuNksK54+H1jI=",
   "Source": "EntryLog.Web",
   "BasePath": "_content/EntryLog.Web",
   "Mode": "Default",
@@ -74,6 +74,25 @@
       "OriginalItemSpec": "wwwroot/assets/images/logo_entrylog_dark.png"
     },
     {
+      "Identity": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/assets/images/logo_entrylog_light.png",
+      "SourceId": "EntryLog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/",
+      "BasePath": "_content/EntryLog.Web",
+      "RelativePath": "assets/images/logo_entrylog_light.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/images/logo_entrylog_light.png"
+    },
+    {
       "Identity": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/css/site.css",
       "SourceId": "EntryLog.Web",
       "SourceType": "Discovered",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/js/account.login.js",
+      "SourceId": "EntryLog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/",
+      "BasePath": "_content/EntryLog.Web",
+      "RelativePath": "js/account.login.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/account.login.js"
     },
     {
       "Identity": "/home/jstiven/Documentos/Programacion/Csharp/EntryLog/EntryLog.Web/wwwroot/js/account.register.js",
